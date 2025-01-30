@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- font  -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+        .sora{
+  font-family: "Sora", serif;
+  font-optical-sizing: auto;
+   
+}
+    </style>
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/c3f025fbf8.js" crossorigin="anonymous"></script>
+    <!-- tailwind -->
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                'clifford': '#da373d',
+                'all-first': '#179800',
+              }
+            }
+          }
+        }
+      </script>
+      <!-- daisyUI  -->
+      <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+      <script src="https://cdn.tailwindcss.com"></script>
+    <title>Assingment-3</title>
+</head>
+<!-- body  -->
+<body class="sora">
+    <header class="mx-auto">
+        <div class="navbar bg-base-100 mb-8">
+            <div class="navbar-start">
+              <div class="dropdown">
+                <ul
+                  tabindex="0"
+                  class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 p-2 shadow">
+                  <li><a>Product</a></li>
+                  <li><a>Service</a></li>
+                  <li><a>Contact Us</a></li>
+                </ul>
+              </div>
+              <img class="" src="./c2-assets/logo-header.png" alt="">
+            </div>
+            <div class="navbar-end gap-2 hidden lg:flex">
+              <ul class="menu menu-horizontal">
+                <li><a>Product</a></li><li>
+                <li><a>Service </a></li>
+                <li><a>Contact Us</a></li>
+                <li><a><i class="fa-solid fa-magnifying-glass"></i></a></li>
+                <li><a><i class="fa-solid fa-cart-shopping"></i></a></li>
+                <li><button class="btn btn-outline btn-primary">Login</button></li>
+              </ul>
+              <div class="">
+                <button class="btn btn-primary hidden lg:block px-2">Register</button>
+                
+              </div>
+            </div>
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden navbar-end">
+                
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor">
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h8m-8 6h16" />
+                </svg>
+                </div>
+                
+              </div>
+          </div>
+<!-- banner section  -->
+
+        <section class="mx-auto">
+            <div class=" justify-center items-center py-10">
+              <p class="font-bold text-4xl text-center py-8">Freshness <span class="text-lime-600">You Can <br>
+                Count</span> On, Prices You’ll Love!</p>
+              <p class=" text-xl text-center">Shop your daily essentials at unbeatable prices. From fresh produce to pantry staples, <br> we’ve got you covered every day!</p>
+              </div>
+            </div>
+            <div class="grid grid-cols-1 lg:flex justify-center items-center py-8 ">
+                <img class="w-auto h-auto" src="./c2-assets/hero-vegetables.png" alt="Centered Image">
+            </div>
+        </section>
+    </header>
+<!-- Services section -->
+    <main>
+        <section class="lg:w-[920px] h-auto my-12 mx-auto">
+            <h1 class="text-3xl pb-10 font-bold text-green-500">Services</h1>
+            <div>
+                <div class=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-4 ">
+                    <div class="card bg-red-100 shadow-xl">
+                        <figure class="px-6 pt-10">
+                          <img src="./c2-assets/service.png"alt=""
+                            class="rounded-xl" />
+                        </figure>
+                        <div class="card-body items-center text-center">
+                          <h2 class="card-title font-bold text-2xl">24/7 Services </h2>
+                          <p>Fresh vegetables provide essential nutrients, improve health, boost immunity, enhance energetic lifestyle.</p>
+                        </div>
+                      </div>
+                    <div class="card bg-red-100 shadow-xl">
+                        <figure class="px-6 pt-10">
+                          <img src="./c2-assets/delivery.png"alt="Shoes"
+                            class="rounded-xl" />
+                        </figure>
+                        <div class="card-body items-center text-center">
+                          <h2 class="card-title font-bold text-2xl">Fast Delivery</h2>
+                          <p>The first delivery provides fresh, organic vegetables, ensuring quality, timely service, customer with farm-fresh produce.</p>
+                        </div>
+                      </div>
+                    <div class="card bg-red-100 shadow-xl">
+                        <figure class="px-6 pt-10">
+                          <img
+                            src="./c2-assets/healthy.png"
+                            alt="Shoes"
+                            class="rounded-xl" />
+                        </figure>
+                        <div class="card-body items-center text-center">
+                          <h2 class="card-title font-bold text-2xl">Healthy Products </h2>
+                          <p>"Eating fresh vegetables daily helps maintain good health, boosts immunity, and keeps the mind refreshed."</p>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </section>
+<!-- Popular Products section-->
+        <section class="mt-12 mx-auto bg-red-200 py-6 px-8">
+            <!-- img section  -->
+            <h1 class="text-2xl lg:text-4xl pb-4 font-bold text-green-500">Popular Products</h1>
+            <div class=" grid grid-cols-1 lg:flex gap-2">
+                <div class="flex-1 bg-gradient-to-t from-green-50 to bg-green-800  px-12 py-16 rounded-xl">
+                    <h1 class="font-bold text-white text-3xl py-4">30% off</h1>
+                    <p class="py-6">Enjoy 30% off on fresh vegetables today! Limited-time offer, hurry and shop now!</p>
+                    <button class="btn btn-outline bg-white">Default</button>
+                    <div class="relative">
+                        <img src="./c2-assets/vegetable-offer.png" alt="Image" class="left-auto relative -top-16">
+                      </div> 
+                </div>
+        <!-- Onion items  -->
+                <div class=" grid grid-cols-1 grid-rows-4 lg:grid-rows-3 md:grid-cols-2 lg:grid-cols-3 gap-4 justify-center items-center">
+                        <div class="bg-white rounded h-auto w-auto">
+                            <div class="flex justify-center items-center">
+                                
+                              <img class="" src="./c2-assets/image 43.png"alt="" />
+                              <div class="">
+                                <div class="rating ">
+                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                </div>
+                                <p class="font-bold ">Onion 1 KG</p>
+                                <p class="">$39.99</p>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="bg-white rounded h-[105px] w-[200px]">
+                            <div class="flex">
+                                
+                              <img src="./c2-assets/image 43.png"alt="" />
+                              <div>
+                                <div class="rating">
+                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                </div>
+                                <h2 class="font-bold">Onion 1 KG</h2>
+                              <h2>$39.99</h2>
+                              </div>
+                            </div>
+                        </div>                                        
+                        <div class="bg-white rounded h-[105px] w-[200px]">
+                            <div class="flex">
+                                
+                              <img src="./c2-assets/image 43.png"alt="" />
+                              <div>
+                                <div class="rating">
+                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                </div>
+                                <h2 class="font-bold">Onion 1 KG</h2>
+                              <h2>$39.99</h2>
+                              </div>
+                            </div>
+                        </div>                                        
+                        <div class="bg-white rounded h-[105px] w-[200px]">
+                            <div class="flex">
+                                
+                              <img src="./c2-assets/image 43.png"alt="" />
+                              <div>
+                                <div class="rating">
+                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                </div>
+                                <h2 class="font-bold">Onion 1 KG</h2>
+                              <h2>$39.99</h2>
+                              </div>
+                            </div>
+                        </div>                                        
+                        <div class="bg-white rounded h-[105px] w-[200px]">
+                            <div class="flex">
+                                
+                              <img src="./c2-assets/image 43.png"alt="" />
+                              <div>
+                                <div class="rating">
+                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                </div>
+                                <h2 class="font-bold">Onion 1 KG</h2>
+                              <h2>$39.99</h2>
+                              </div>
+                            </div>
+                        </div>                                        
+                        <div class="bg-white rounded h-[105px] w-[200px]">
+                            <div class="flex">
+                                
+                              <img src="./c2-assets/image 43.png"alt="" />
+                              <div>
+                                <div class="rating">
+                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                </div>
+                                <h2 class="font-bold">Onion 1 KG</h2>
+                              <h2>$39.99</h2>
+                              </div>
+                            </div>
+                        </div>                                        
+                        <div class="bg-white rounded h-[105px] w-[200px]">
+                            <div class="flex">
+                                
+                              <img src="./c2-assets/image 43.png"alt="" />
+                              <div>
+                                <div class="rating">
+                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                </div>
+                                <h2 class="font-bold">Onion 1 KG</h2>
+                              <h2>$39.99</h2>
+                              </div>
+                            </div>
+                        </div>                                        
+                        <div class="bg-white rounded h-[105px] w-[200px]">
+                            <div class="flex">
+                                
+                              <img src="./c2-assets/image 43.png"alt="" />
+                              <div>
+                                <div class="rating">
+                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                </div>
+                                <h2 class="font-bold">Onion 1 KG</h2>
+                              <h2>$39.99</h2>
+                              </div>
+                            </div>
+                        </div>                                        
+                        <div class="bg-white rounded h-[105px] w-[200px]">
+                            <div class="flex">
+                                
+                              <img src="./c2-assets/image 43.png"alt="" />
+                              <div>
+                                <div class="rating">
+                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                </div>
+                                <h2 class="font-bold">Onion 1 KG</h2>
+                              <h2>$39.99</h2>
+                              </div>
+                            </div>
+                        </div>                                        
+                </div>
+            </div>
+        </section>
+
+    </main>
+     
+    <footer></footer>
+</body>
+</html>
