@@ -58,7 +58,7 @@
                 <li><button class="btn btn-outline btn-primary">Login</button></li>
               </ul>
               <div class="">
-                <button class="btn btn-primary hidden lg:block px-2">Register</button>
+                <button class="btn btn-primary hidden lg:block px-2 bg-[#179800] border-[#179800]">Register</button>
                 
               </div>
             </div>
@@ -94,8 +94,105 @@
             </div>
         </section>
     </header>
-<!-- Services section -->
+    
+<!-- body section -->
     <main>
+        <!-- product section  -->
+         <!-- extra section and transition add  -->
+       <section class="mt-24">
+        <div class="">
+          <h1 class="text-center font-bold text-3xl text-green-500">Our Products</h1>
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:flex text-center py-10 gap-10 mx-auto lg:rounded">
+            <!---one  -->
+            <div class="border-2 py-6 bg-red-100 rounded">
+
+              <div class="overflow-hidden rounded-lg mx-auto w-[150px] h-[150px] p-2">
+                <img src="./c2-assets/Pumpkin.jpg" 
+                     alt="Beautiful Image" 
+                     class="transition-all duration-500 ease-in-out transform hover:scale-110 hover:rotate-8">
+            </div>
+              <p class=" text-xs py-2 leading-normal">Potimarron Squash from France: A sweet and nutty winter squash prized for its rich flavor and versatile culinary uses, perfect for soups, stews, and roasted dishes.</p>
+                <div class="rating py-2">
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                  <input
+                    type="radio"
+                    name="rating-2"
+                    class="mask mask-star-2 bg-orange-400"
+                    checked="checked" />
+                    <input
+                    type="radio"
+                    name="rating-2"
+                    class="mask mask-star-2 bg-orange-400"
+                    checked="checked" />
+                    <input
+                    type="radio"
+                    name="rating-2"
+                    class="mask mask-star-2 bg-orange-400"
+                    checked="checked" />
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                </div>
+                <p class="text-cyan-500 text-xs font-bold py-2">Mini Pumpkin</p>
+                <button class="btn btn-success bg-[#179800]">Bye Now</button>
+            </div>
+            <!---two  -->
+            <div class="border-2 py-6 bg-red-100 rounded">
+              <img class="mx-auto  w-[150px] h-[150px] rounded transition-all duration-500 ease-in-out transform hover:scale-110 hover:rotate-8" src="./c2-assets/tomato-beef.jpg" alt="">
+              <p class=" text-xs py-2 leading-normal">Tomato Beef are rich in vitamins A and C and also full of fiber. They are also noted for containing antioxidant, which helps protect against prostate cancer and heart disease.
+
+              </p>
+                <div class="rating py-2">
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                  <input
+                    type="radio"
+                    name="rating-2"
+                    class="mask mask-star-2 bg-orange-400"
+                    checked="checked" />
+                    <input
+                    type="radio"
+                    name="rating-2"
+                    class="mask mask-star-2 bg-orange-400"
+                    checked="checked" />
+                    <input
+                    type="radio"
+                    name="rating-2"
+                    class="mask mask-star-2 bg-orange-400"
+                    checked="checked" />
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                </div>
+                <p class="text-cyan-500 text-xs font-bold py-2">Tomato Beef Imported</p>
+                <button class="btn btn-success bg-[#179800]">Bye Now</button>
+            </div>
+            <!---three  -->
+            <div class="border-2 py-6 bg-red-100 rounded">
+              <img class=" rounded mx-auto w-[150px] h-[150px] transition-all duration-500 ease-in-out transform hover:scale-110 hover:rotate-8" src="./c2-assets/Tomato_Blue-956.jpg" alt="">
+              <p class=" text-xs py-2 leading-normal">The Marmande is a medium-large sized beefsteak tomato that is lightly ribbed with a flattened globe shape. offers a savory tomato flavor with subtle tartness, as well as a hint of sweetness.</p>
+                <div class="rating py-2">
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                  <input
+                    type="radio"
+                    name="rating-2"
+                    class="mask mask-star-2 bg-orange-400"
+                    checked="checked" />
+                    <input
+                    type="radio"
+                    name="rating-2"
+                    class="mask mask-star-2 bg-orange-400"
+                    checked="checked" />
+                    <input
+                    type="radio"
+                    name="rating-2"
+                    class="mask mask-star-2 bg-orange-400"
+                    checked="checked" />
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                </div>
+                <p class="text-cyan-500 text-xs font-bold py-2">Tomato Blue</p>
+                <button class="btn btn-success bg-[#179800]">Bye Now</button>
+            </div>
+            
+          </div>
+        </div>
+       </section>
+      <!-- service section  -->
         <section class="lg:w-[920px] h-auto my-12 mx-auto">
             <h1 class="text-3xl pb-10 font-bold text-green-500">Services</h1>
             <div>
@@ -143,7 +240,7 @@
                 <div class="bg-gradient-to-t from-green-50 to bg-green-800  px-12 py-16 rounded-xl">
                     <h1 class="font-bold text-white text-3xl py-4">30% off</h1>
                     <p class="py-6">Enjoy 30% off on fresh vegetables today! Limited-time offer, hurry and shop now!</p>
-                    <button class="btn btn-outline bg-white">Default</button>
+                    <a><button class="btn btn-outline bg-white">Buy Now</button></a>
                     <div class="relative">
                         <img src="./c2-assets/vegetable-offer.png" alt="Image" class="left-auto relative -top-16">
                       </div> 
@@ -152,12 +249,12 @@
                 <div class=" grid grid-cols-2 grid-rows-4 lg:grid-rows-3 md:grid-cols-2 lg:grid-cols-3 gap-4 justify-center items-center rounded-3xl">
                         <div class="bg-white rounded h-auto w-auto">
                             <div class="flex justify-center items-center">
-                              <img class="" src="./c2-assets/image 43.png"alt="" />
+                              <img class="" src="./c2-assets/Group 16.png"alt="" />
                               <div class="">
                                 <div class="rating ">
                                     <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                                 </div>
-                                <p class="font-bold ">Onion 1 KG</p>
+                                <p class="font-bold "> Tomato 500 g </p>
                                 <p class="">$39.99</p>
                               </div>
                             </div>
@@ -165,7 +262,72 @@
                         <div class="bg-white roundedh-auto w-auto">
                             <div class="flex">
                                 
-                              <img src="./c2-assets/image 43.png"alt="" />
+                              <img src="./c2-assets/Group 1.png"alt="" />
+                              <div>
+                                <div class="rating">
+                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                </div>
+                                <h2 class="font-bold">Potato 1 KG</h2>
+                              <h2>$39.99</h2>
+                              </div>
+                            </div>
+                        </div>                                        
+                        <div class="bg-white rounded h-auto w-auto">
+                            <div class="flex">
+                                
+                              <img src="./c2-assets/Group 16.png"alt="" />
+                              <div>
+                                <div class="rating">
+                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                </div>
+                                <h2 class="font-bold">Tomato 500 g</h2>
+                              <h2>$39.99</h2>
+                              </div>
+                            </div>
+                        </div>                                        
+                        <div class="bg-white rounded h-auto w-auto">
+                            <div class="flex">
+                                
+                              <img src="./c2-assets/Group 16.png"alt="" />
+                              <div>
+                                <div class="rating">
+                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                </div>
+                                <h2 class="font-bold">Tomato 500 g </h2>
+                              <h2>$39.99</h2>
+                              </div>
+                            </div>
+                        </div>                                        
+                        <div class="bg-white rounded h-auto w-auto">
+                            <div class="flex">
+                                
+                              <img src="./c2-assets/Group 16.png"alt="" />
+                              <div>
+                                <div class="rating">
+                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                </div>
+                                <h2 class="font-bold">Tomato 500 g </h2>
+                              <h2>$39.99</h2>
+                              </div>
+                            </div>
+                        </div>                                        
+                        <div class="bg-white rounded h-auto w-auto">
+                            <div class="flex">
+                                
+                              <img src="./c2-assets/Group 1.png"alt="" />
+                              <div>
+                                <div class="rating">
+                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                </div>
+                                <h2 class="font-bold">Potato 1 KG</h2>
+                              <h2>$39.99</h2>
+                              </div>
+                            </div>
+                        </div>                                        
+                        <div class="bg-white rounded h-auto w-auto">
+                            <div class="flex">
+                                
+                              <img src="./c2-assets/Group 6.png"alt="" />
                               <div>
                                 <div class="rating">
                                     <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
@@ -178,77 +340,12 @@
                         <div class="bg-white rounded h-auto w-auto">
                             <div class="flex">
                                 
-                              <img src="./c2-assets/image 43.png"alt="" />
+                              <img src="./c2-assets/Group 1.png"alt="" />
                               <div>
                                 <div class="rating">
                                     <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                                 </div>
-                                <h2 class="font-bold">Onion 1 KG</h2>
-                              <h2>$39.99</h2>
-                              </div>
-                            </div>
-                        </div>                                        
-                        <div class="bg-white rounded h-auto w-auto">
-                            <div class="flex">
-                                
-                              <img src="./c2-assets/image 43.png"alt="" />
-                              <div>
-                                <div class="rating">
-                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                                </div>
-                                <h2 class="font-bold">Onion 1 KG</h2>
-                              <h2>$39.99</h2>
-                              </div>
-                            </div>
-                        </div>                                        
-                        <div class="bg-white rounded h-auto w-auto">
-                            <div class="flex">
-                                
-                              <img src="./c2-assets/image 43.png"alt="" />
-                              <div>
-                                <div class="rating">
-                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                                </div>
-                                <h2 class="font-bold">Onion 1 KG</h2>
-                              <h2>$39.99</h2>
-                              </div>
-                            </div>
-                        </div>                                        
-                        <div class="bg-white rounded h-auto w-auto">
-                            <div class="flex">
-                                
-                              <img src="./c2-assets/image 43.png"alt="" />
-                              <div>
-                                <div class="rating">
-                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                                </div>
-                                <h2 class="font-bold">Onion 1 KG</h2>
-                              <h2>$39.99</h2>
-                              </div>
-                            </div>
-                        </div>                                        
-                        <div class="bg-white rounded h-auto w-auto">
-                            <div class="flex">
-                                
-                              <img src="./c2-assets/image 43.png"alt="" />
-                              <div>
-                                <div class="rating">
-                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                                </div>
-                                <h2 class="font-bold">Onion 1 KG</h2>
-                              <h2>$39.99</h2>
-                              </div>
-                            </div>
-                        </div>                                        
-                        <div class="bg-white rounded h-auto w-auto">
-                            <div class="flex">
-                                
-                              <img src="./c2-assets/image 43.png"alt="" />
-                              <div>
-                                <div class="rating">
-                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                                </div>
-                                <h2 class="font-bold">Onion 1 KG</h2>
+                                <h2 class="font-bold">Potato 1 kG</h2>
                               <h2>$39.99</h2>
                               </div>
                             </div>
@@ -256,12 +353,12 @@
                         <div class="bg-white rounded h-auto w-auto hidden lg:block ">
                             <div class="flex">
                                 
-                              <img src="./c2-assets/image 43.png"alt="" />
+                              <img src="./c2-assets/Group 16.png"alt="" />
                               <div>
                                 <div class="rating">
                                     <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                                 </div>
-                                <h2 class="font-bold">Onion 1 KG</h2>
+                                <h2 class="font-bold">Tomato 500 g </h2>
                               <h2>$39.99</h2>
                               </div>
                             </div>
@@ -270,7 +367,7 @@
             </div>
         </section>
 <!-- Arrival & Offers section  -->
-        <section class="mx-auto mt-16 h-auto w-auto lg:max-w-max">
+        <section class="mx-auto mt-16 lg:mb-96 h-auto w-auto lg:max-w-max mb-96 py-8 lg:py-24">
           <h1 class="text-2xl lg:text-4xl pb-4 font-bold text-green-500">Arrival & Offers</h1>
           <div class="grid grid-cols-1 gap-4 lg:flex">  
             <div class="flex w-auto">
@@ -294,37 +391,51 @@
                 </div>     
               </div>
             </div>
-          </div>
+          </div>    
         </section>
+        
+  <!-- cover page -->
     </main>
      <!-- footer section  -->
-    <footer>
-      <footer class="footer bg-[#009198] p-10">
+    <footer class="">
+      <footer class="relative footer bg-[#009198] gap-x-40 p-28 mx-auto lg:max-w-max ">
+        <!-- mx-auto mt-16 lg:mb-80 h-auto w-auto lg:max-w-max -->
         <nav>
           <img src="./c2-assets/logo-footer.png" alt="">
           <h1 class="">Discover a world of treats, toys, and <br> essentials handpicked for your <br> furry friends</h1>
         </nav>
-        <nav>
-           
+        <nav class="gap-4">
           <a class="link link-hover">About us</a>
           <a class="link link-hover">Contact</a>
           <a class="link link-hover">Press kit</a>
         </nav>
         <nav>
-          <h1 class="footer-title">Follow</h1>
+          <h1 class="font-bold">Follow Us</h1>
           <div class="grid grid-flow-col gap-4">
-            <a>
-              <img src="./c2-assets/fb.png" alt="">
-            </a>
-            <a>
-              <img src="./c2-assets/fb.png" alt="">
-            </a>
-            <a>
-              <img src="./c2-assets/twitter.png" alt="">
-            </a>
-            <a>
+            <a><img src="./c2-assets/fb.png" alt=""></a>
+            <a><img src="./c2-assets/twitter.png" alt=""></a>
+            <a><i class="text-4xl fa-brands fa-linkedin"></i></a>
           </div>
         </nav>
+        <!-- cover  -->
+
+        <section class="absolute -top-96 lg:bottom-64 lg:left-24 bg-red-200 rounded-2xl grid grid-cols-1">
+          <!-- mx-auto mt-16 lg:mb-80 h-auto w-auto lg:max-w-max -->
+          <div class=" grid grid-cols-1 lg:flex">
+            <div>
+              <img src="./c2-assets/vegetable-busket.png" alt="">
+            </div>
+            <div>
+              <div class="px-2 grid text-center lg:text-left">
+                <h1 class="text-3xl font-bold py-4 ">Get Grocery News!</h1></div>
+                <h1 class="py-4 px-2">Exclusive training tips, ticks, product deals and more.</h1>
+                <div class="px-2 text-center lg:text-left"><input class=" py-4 rounded-xl w-64 p-2" type="email" placeholder="Enter your E-mail"></div>
+                <div class="py-4 text-center lg:text-left">
+                  <button class="btn  btn-secondary bg-[#179800] ">Subscribe</button>
+                </div>
+              </div>
+            </div>
+        </section>
       </footer>
     </footer>
 </body>
