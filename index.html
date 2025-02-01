@@ -27,6 +27,25 @@
           }
         }
       </script>
+      <!-- animation  -->
+      <style>
+        @keyframes textBounce {
+          0% {
+            transform: translateY(0);
+          }
+          50% {
+            transform: translateY(-10px);
+          }
+          100% {
+            transform: translateY(0);
+          }
+        }
+      
+        .animate-text-bounce {
+          animation: textBounce 2s ease-in-out infinite;
+        }
+      </style> 
+
       <!-- daisyUI  -->
       <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
       <script src="https://cdn.tailwindcss.com"></script>
@@ -86,7 +105,7 @@
 
         <section class="">
             <div class=" justify-center items-center py-10">
-              <p class="font-bold text-4xl text-center py-8">Freshness <span class="text-lime-600">You Can <br>
+              <p class="font-bold text-4xl text-center py-8  animate-text-bounce">Freshness <span class="text-lime-600">You Can <br>
                 Count</span> On, Prices You’ll Love!</p>
               <p class=" text-xl text-center">Shop your daily essentials at unbeatable prices. From fresh produce to pantry staples, <br> we’ve got you covered every day!</p>
               </div>
