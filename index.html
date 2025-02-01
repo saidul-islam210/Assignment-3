@@ -34,7 +34,7 @@
 </head>
 <!-- body  -->
 <body class="sora">
-    <header class="mx-auto ">
+    <header class="mx-auto md:container">
         <div class="navbar bg-base-100 mb-8">
             <div class="navbar-start">
               <div class="dropdown">
@@ -82,7 +82,7 @@
           </div>
 <!-- banner section  -->
 
-        <section class="mx-auto">
+        <section class="">
             <div class=" justify-center items-center py-10">
               <p class="font-bold text-4xl text-center py-8">Freshness <span class="text-lime-600">You Can <br>
                 Count</span> On, Prices You’ll Love!</p>
@@ -96,13 +96,13 @@
     </header>
     
 <!-- body section -->
-    <main>
+    <main class="md:container mx-auto">
         <!-- product section  -->
          <!-- extra section and transition add  -->
-       <section class="mt-24">
+       <section class="mt-12">
         <div class="">
           <h1 class="text-center font-bold text-3xl text-green-500">Our Products</h1>
-          <div class="grid grid-cols-1 md:grid-cols-2 lg:flex text-center py-10 gap-10 mx-auto lg:rounded">
+          <div class="grid grid-cols-1 md:grid-cols-2 text-center    py-10 gap-10 mx-auto lg:rounded">
             <!---one  -->
             <div class="border-2 py-6 bg-red-100 rounded">
 
@@ -163,7 +163,7 @@
                 <button class="btn btn-success bg-[#179800]">Bye Now</button>
             </div>
             <!---three  -->
-            <div class="border-2 py-6 bg-red-100 rounded">
+            <div class="border-2 py-6 bg-red-100 rounded ">
               <img class=" rounded mx-auto w-[150px] h-[150px] transition-all duration-500 ease-in-out transform hover:scale-110 hover:rotate-8" src="./c2-assets/Tomato_Blue-956.jpg" alt="">
               <p class=" text-xs py-2 leading-normal">The Marmande is a medium-large sized beefsteak tomato that is lightly ribbed with a flattened globe shape. offers a savory tomato flavor with subtle tartness, as well as a hint of sweetness.</p>
                 <div class="rating py-2">
@@ -193,7 +193,7 @@
         </div>
        </section>
       <!-- service section  -->
-        <section class="lg:w-[920px] h-auto my-12 mx-auto">
+        <section class="lg:w-[920px] h-auto my-12 mx-auto ">
             <h1 class="text-3xl pb-10 font-bold text-green-500">Services</h1>
             <div>
                 <div class=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-4 ">
@@ -233,7 +233,7 @@
             </div>
         </section>
 <!-- Popular Products section-->
-        <section class="mt-12 mx-auto bg-red-200 py-6 px-8 lg:max-w-max">
+        <section class=" mx-auto bg-red-200 py-6 px-8 lg:max-w-max ">
             <!-- img section  -->
             <h1 class="text-2xl lg:text-4xl pb-4 font-bold text-green-500">Popular Products</h1>
             <div class=" grid grid-cols-1 lg:flex gap-2">
@@ -367,7 +367,7 @@
             </div>
         </section>
 <!-- Arrival & Offers section  -->
-        <section class="mx-auto mt-16 lg:mb-96 h-auto w-auto lg:max-w-max mb-96 py-8 lg:py-24">
+        <section class="mx-auto lg:mb-44 h-auto w-auto lg:max-w-max py-8 lg:py-24">
           <h1 class="text-2xl lg:text-4xl pb-4 font-bold text-green-500">Arrival & Offers</h1>
           <div class="grid grid-cols-1 gap-4 lg:flex">  
             <div class="flex w-auto">
@@ -381,7 +381,7 @@
               </div>
             </div>
 
-            <div class="w-auto">
+            <div class="w-auto ">
               <div class="bg-[#102861] px-6 rounded-xl">
                 <div class="flex">
                   <div><img class=" py-6" src="./c2-assets/india-gate-logo.png" alt="">
@@ -393,11 +393,9 @@
             </div>
           </div>    
         </section>
-        
-  <!-- cover page -->
     </main>
      <!-- footer section  -->
-    <footer class="">
+    <footer class="md:container mx-auto mt-96">
       <footer class="relative footer bg-[#009198] gap-x-40 p-24  mx-auto ">
         <!-- mx-auto mt-16 lg:mb-80 h-auto w-auto lg:max-w-max -->
         <nav class="">
@@ -419,7 +417,7 @@
         </nav>
         <!-- cover  -->
 
-        <section class="absolute -top-96 lg:bottom-64 lg:left-24 bg-red-200 rounded-2xl grid grid-cols-1">
+        <section class=" absolute -top-1/4 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-red-200 rounded-2xl grid grid-cols-1 ">
           <!-- mx-auto mt-16 lg:mb-80 h-auto w-auto lg:max-w-max -->
           <div class=" grid grid-cols-1 lg:flex">
             <div>
@@ -429,7 +427,7 @@
               <div class="px-2 grid text-center lg:text-left">
                 <h1 class="text-3xl font-bold py-4 ">Get Grocery News!</h1></div>
                 <h1 class="py-4 px-2">Exclusive training tips, ticks, product deals and more.</h1>
-                <div class="px-2 text-center lg:text-left"><input class=" py-4 rounded-xl w-64 p-2" type="email" placeholder="Enter your E-mail"></div>
+                <div class="px-2 text-center lg:text-left"><input class=" py-2 rounded-xl w-auto p-2" type="email" placeholder="Enter your E-mail"></div>
                 <div class="py-4 text-center lg:text-left">
                   <button class="btn  btn-secondary bg-[#179800] ">Subscribe</button>
                 </div>
